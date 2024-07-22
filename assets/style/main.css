@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/assets/img/weather.gif);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  gap: 20px;
+}
+
+form input {
+  padding: 20px;
+  border-radius: 8px;
+}
+form button {
+  background-color: rgb(124, 196, 172);
+  width: 100px;
+  padding: 20px;
+  border-radius: 8px;
+  color: aliceblue;
+  border: none;
+}
+.allforecast {
+  /* background-color: rgba(116, 161, 192, 0.6); */
+  border-radius: 8px;
+  color: rgb(22, 22, 22);
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.allforecast img {
+  width: 100px;
+}
