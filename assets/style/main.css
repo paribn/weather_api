@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(./assets/img/weather.gif);
+  background-image: url(../img/weather.gif);
 }
 .container {
   display: flex;
